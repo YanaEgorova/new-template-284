@@ -13,6 +13,7 @@ body.open-menu {
 .header__flex {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 /* .hero__wrapper-main .header__logo {
     color: var(--first-brand-color);
@@ -88,11 +89,11 @@ body.open-menu {
 }
 
 .cart__btn {
-    display: none;
+    display: flex;
     align-items: center;
     background-color: var(--main-text-color);
     width: fit-content;
-    margin: 0 auto;
+    margin-left: auto;
     padding: 1rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -109,12 +110,13 @@ body.open-menu {
     color: var(--sub-text-color);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .cart__btn {
         display: flex;
         margin-left: 2rem;
         margin-right: 0;
     }
+   
     .nav__link {
         position: relative;
       
